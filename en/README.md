@@ -1,18 +1,16 @@
 ### _XOOPS Documentation Series_
-![logoXoops.jpg](en/assets/logoXoops.jpg)
+![logoXoops.jpg](assets/logoXoops.jpg)
 
 # Module XXX
 #### for XOOPS 2.5.8
 
 Module Version x.xx
 
-Tutorial Version x.xx      
-	  
-![logoModule.png](en/assets/logoModule.png)
+Tutorial Version x.xx
+      
+![logoModule.png](assets/logoModule.png)
             
 ## User Manual
-
-## View it on: [![Gitbook](http://xoops.org/images/logoGitbookSmall.png)](https://www.gitbook.com/book/xoops/XXX-tutorial/) 
 
 © 2016 XOOPS Project ([www.xoops.org](http://xoops.org))  
 
@@ -20,7 +18,7 @@ Tutorial Version x.xx
 
 This module is for .....
 
-![image001.png](en/assets/image001.png)
+![image001.png](assets/image001.png)
 *Figure 1: Main view of the XXX Module (Admin side)*
 
 ## Download/Fork the Module ![](http://xoops.org/images/forkit.png) 
@@ -35,17 +33,17 @@ Editing the book can be done either by updating the markdown files with a text e
 
 # Table of Content
 
-* [Introduction](en/book/0introduction.md)
-* [Install/Uninstall](en/book/1install.md)
-* [Administration Menu](en/book/2administration.md)
-* [Preferences](en/book/3preferences.md)
-* [Operating Instructions](en/book/4operations.md)
-* [The User Side](en/book/5userside.md)
-* [Blocks](en/book/6blocks.md)
-* [Templates](en/book/7templates.md)
-* [Miscellaneous](en/book/8other.md) 
-* [Module Credits](en/book/9credits.md)
-* [About XOOPS CMS](en/book/10aboutxoops.md)
+* [Introduction](book/0introduction.md)
+* [Install/Uninstall](book/1install.md)
+* [Administration Menu](book/2administration.md)
+* [Preferences](book/3preferences.md)
+* [Operating Instructions](book/4operations.md)
+* [The User Side](book/5userside.md)
+* [Blocks](book/6blocks.md)
+* [Templates](book/7templates.md)
+* [Miscellaneous](book/8other.md) 
+* [Module Credits](book/9credits.md)
+* [About XOOPS CMS](book/10aboutxoops.md)
 
 ##License:
 
