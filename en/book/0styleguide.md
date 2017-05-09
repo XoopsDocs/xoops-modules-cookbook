@@ -49,6 +49,7 @@ Interface classes must follow the same conventions as other classes (see above),
 
 ### Constant / Define Names
 Constants and define names not encapsulated in a class SHOULD be located in the ./language/<desired_language>/ folder with the following prefixes:
+
 | Prefix | Language File Name | Description |
 | :---: | ---: | --- |
 | \_AM\_ | admin.php | Administration definitions |
