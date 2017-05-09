@@ -1,13 +1,13 @@
 ### _XOOPS Documentation Series_
 ![logoXoops.jpg](en/assets/logoXoops.jpg)
 
-# XOOPS Module Structure
+# XOOPS Module Structure & Coding Style Guide
 #### for XOOPS 2.5.9
 
 Tutorial Version 1.00      
 	  
            
-## User Manual
+## Developer Manual
 
 ## View it on: [![Gitbook](http://xoops.org/images/logoGitbookSmall.png)](https://www.gitbook.com/book/xoops/XXX-tutorial/) 
 
