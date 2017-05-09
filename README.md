@@ -30,6 +30,7 @@ Editing the book can be done either by updating the markdown files with a text e
 # Table of Content
 
 * [Introduction](en/book/0introduction.md)
+* [Style Guide](en/book/0styleguide.md)
 * [Install/Uninstall](en/book/1install.md)
 * [Administration Menu](en/book/2administration.md)
 * [Preferences](en/book/3preferences.md)
