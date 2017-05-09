@@ -1,31 +1,25 @@
 ### _XOOPS Documentation Series_
 ![logoXoops.jpg](en/assets/logoXoops.jpg)
 
-# Module XXX
-#### for XOOPS 2.5.8
+# XOOPS Module Structure
+#### for XOOPS 2.5.9
 
-Module Version x.xx
-
-Tutorial Version x.xx      
+Tutorial Version 1.00      
 	  
-![logoModule.png](en/assets/logoModule.png)
-            
+           
 ## User Manual
 
 ## View it on: [![Gitbook](http://xoops.org/images/logoGitbookSmall.png)](https://www.gitbook.com/book/xoops/XXX-tutorial/) 
 
-© 2016 XOOPS Project ([www.xoops.org](http://xoops.org))  
+© 2017 XOOPS Project ([www.xoops.org](http://xoops.org))  
 
-## Module Purpose 
+## Tutorial Purpose 
 
-This module is for .....
+This tutorial documents the recommended structure for a XOOPS 2.5.9 module 
 
 ![image001.png](en/assets/image001.png)
-*Figure 1: Main view of the XXX Module (Admin side)*
+*Figure 1: Main view of a XOOPS Module (Admin side)*
 
-## Download/Fork the Module ![](http://xoops.org/images/forkit.png) 
-
-**You can fork the module --> [here](https://github.com/XoopsModules25x/XXX))** 
 
 ## How to Contribute
 
