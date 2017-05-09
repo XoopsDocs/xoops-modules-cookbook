@@ -179,11 +179,16 @@ if ($var = 0) {
 ### Output HTML Strings
 ### Concatenation
 It is RECOMMENDED developers use a consistent method throughout the module to concatenate strings using PHP. Example 1: 
-`$myString = 'This is my ' . $string . ' for display';`
+```php
+$myString = 'This is my ' . $string . ' for display';
+```
 **or** Example 2: 
-`$myString = "This is my {$string} for display";`
+```php
+$myString = "This is my {$string} for display";
+```
 but both methods SHOULD NOT be used in the same module. Consistency is far more important and preferrable to toggling between two varying styles which are more error prone. If the first method above (Example 1:) is used then it is RECOMMENDED that the developer _always_ use single-quotes (\'). In Example 2: above double-quotes are REQUIRED for the string to render correctly however it RECOMMENDED that the developer _always_ use double-quotes (\") even if the string does not contain a variable.
-> **Note:** If embedding the variable in the string like Example 2: then it is RECOMMENDED the variable be encased in curly-braces `{$variable}`.
+> ![](../assets/info/info.png)
+**Note:** If embedding the variable in the string like Example 2: then it is RECOMMENDED the variable be encased in curly-braces `{$variable}`.
 
 ## PhPDocs Conventions
 ### Type Hinting
