@@ -1,6 +1,6 @@
 # XOOPS Module Coding Style Guide (XOOPS 2.5.x)
 ## Definitions
-The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
+The key words "MUST", "MUST NOT", ï¿½REQUIREDï¿½, ï¿½SHALLï¿½, ï¿½SHALL NOTï¿½, ï¿½SHOULDï¿½, ï¿½SHOULD NOTï¿½, ï¿½RECOMMENDEDï¿½, ï¿½MAYï¿½, and ï¿½OPTIONALï¿½ in this document are to be interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
 
 ## References
 [PHP-FIG](http://www.php-fig.org/psr/) documents set a baseline for styles and preferences. Unless superceded by content in this document, the Accepted PSRx Standards Recommendations SHOULD be followed.
@@ -88,8 +88,8 @@ Symbolic links ('./' or '../') SHOULD be avoided where possible. For example
 is preferred to
 `include_once './header.php';`
 
-### Usage of PHP ‘eval()’
-The use of PHP ‘eval’ language construct (see http://www.php.net/manual/en/function.eval.php) is highly discouraged.  Using ‘eval’ in modules developed by, or for, the XOOPS Module Development Team(e.g. those supported by the XOOPS Module Team - XMT) MUST NOT us the eval() construct.
+### Usage of PHP ï¿½eval()ï¿½
+The use of PHP ï¿½evalï¿½ language construct (see http://www.php.net/manual/en/function.eval.php) is highly discouraged.  Using ï¿½evalï¿½ in modules developed by, or for, the XOOPS Module Development Team(e.g. those supported by the XOOPS Module Team - XMT) MUST NOT us the eval() construct.
 > **Note:** This construct is prone to misuse and potentially opens the entire XOOPS installation to malicious activity.
 
 ### Unary Operators
