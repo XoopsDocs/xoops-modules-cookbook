@@ -191,12 +191,11 @@ but both methods SHOULD NOT be used in the same module. Consistency is far more 
 > ![](../assets/info/info.png)
 **Note:** If embedding the variable in the string like Example 2: then it is RECOMMENDED the variable be encased in curly-braces `{$variable}`.
 
-## PhPDocs Conventions
-### Type Hinting
-For type-hinting in PHPDocs and casting, use bool (instead of boolean), int (instead of integer), float (instead of double or real);
-
-## License Headers
-The XOOPS core code is licensed under GNU GPLv2. Many XOOPS modules are also licensed using this same license. A module MUST state the licensing model used independent of which license is used. If you create a new file please use a header similar to the following format at the beginning of the file and include a `LICENSE.txt` file in the release package in the ./docs directory:
+## Comments
+### PhpDocumentor Comments
+Using PhpDocumentor (PhpDoc) style comments (\/\*\* <comment> \*\/) SHOULD NOT be used when the comments are only intended to be viewed inside the commented file to document code flow, for code inspection, etc. PhpDoc style comments SHOULD be used to document the file header (DocBlock), functions and methods. PhpDoc style comments MUST be used to document any API accessed outside of an individual file.
+#### License Headers (DocBlock)
+The XOOPS core code is licensed under [GNU GPLv2](http://www.gnu.org/licenses/gpl-2.0.html). Many XOOPS modules are also licensed using this same license. A module MUST state the licensing model used independent of which license is used. A header similar to the following format SHOULD be at the beginning of the file and a `LICENSE.txt` file SHOULD be in the release package in the ./docs directory. A new file header SHOULD use the following format:
 ```php
 /*
  You may not change or alter any portion of this comment or credits of
@@ -222,7 +221,10 @@ The XOOPS core code is licensed under GNU GPLv2. Many XOOPS modules are also lic
  * @since::   <version_of_module_where_this_file_first_appears>
  */
 ```
- > **Note:** If you edit an existing file please add a copyright notice with your name, if you consider your changes substantial enough to claim copyright. As a rule if thumb, this is the case if you contributed more than 10% of the total number of lines of code (excluding comments) to the file.
+ > **Note:** If you edit an existing file please add a copyright notice with your name if you consider your changes substantial enough to claim copyright. As a rule of thumb, this is the case if you contributed more than 10% of the total number of lines of code (excluding comments) to the file. Any file submitted MUST NOT remove or alter an existing copyright notice.
+
+#### Type Hinting
+For type-hinting in PHPDocs and casting, use bool (instead of boolean), int (instead of integer), float (instead of double or real);
 
 ### Class, Method, Function Comments
 All class constructs (class, interface, traits, etc), class methods, and stand alone functions SHOULD be marked with PHPDoc markup. For example:
@@ -242,4 +244,50 @@ public function sendEmail(XoopsModule $module, $email = null) {
   // ...
 }
 . . .
+```
+
+### Indentation
+Comments should be indented to a level consistent with the code it is commenting. Commenting indentation for code (ie. code temporarily removed) should start at column 0 (zero) so it is easily identified as code/comments to be removed before release.
+
+### PHP Comments - Single line
+* Comments inside a PHP file SHOULD utilize the standard single line (\/\/ \<comment\>) format unless the comment is intended to be used for code inspection.
+* Comments intended for code inspection SHOULD use (\/\* <comment> \*\/) multi-line style comments. For example: `/* @var XoopsObject $object */`
+
+* Comments MUST not utilize C-style (\# \<comment\>) style comments.
+
+### PHP Comments - Multi-line
+Multiline comments SHOULD use the standard multi-line (\/\* \<comment\> \*\/) method. Multi-line PhpDoc comments SHOULD be used in accordance with the _PhpDocumentor Comments_ paragraph above.
+ 
+### HTML / SMARTY Comments
+It is RECOMMENDED that only comments to be viewed by end users (administrators, site users, etc.) use HTML comments (\<\!\-\- \<comment\> \-\-\>). It is preferred that any _internal_ comments intended for modules/theme developers utilize smarty comments \<\{\* \<comment\> \*\}\> since these comments are not rendered in the generated HTML.
+
+### Comment Example
+```php
+/**
+ * This is a file DocBlock
+ *
+ * @copyright Copyright (c) 2017 XOOPS project
+ * @package Xmf\Module\Helper
+ *
+ */
+ use Xmf\Request;
+ 
+ . . .
+ 
+ // Get input from the user <- USE THIS SINGLE LINE COMMENT STYLE
+ $id = Request::getInt('id', 0, 'POST);
+ 
+ # Check to see if this is a valid id <- DON'T USE THIS STYLE COMMENT
+ if ($id > 0) {
+    /* <- USE THIS MULTI-LINE COMMENT STYLE
+     * The id is okay,
+     * so now we'll make sure it's for a real item
+     */
+     $goodObject = $myObjectHandler->get($id);
+     /** <- DON'T USE THIS MULTI-LINE STYLE COMMENT
+      * Now we've checked to see if the id is good,
+      * we need to figure out if the object is real
+      */
+    . . .
+ }
 ```
