@@ -17,9 +17,6 @@ Tutorial Version 1.00
 
 This tutorial documents the recommended structure for a XOOPS 2.5.9 module 
 
-![image001.png](en/assets/image001.png)
-*Figure 1: Main view of a XOOPS Module (Admin side)*
-
 
 ## How to Contribute
 
