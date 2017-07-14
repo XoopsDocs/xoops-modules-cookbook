@@ -10,7 +10,8 @@
 * [Blocks](book/6blocks.md)
 * [Templates](book/7templates.md)
 * [Other](book/8other.md)
-* [Module Credits](book/9credits.md)
-* [About XOOPS CMS](book/10aboutxoops.md)
 * [Testing](book/testing.md)
+* [Credits](book/9credits.md)
+* [About XOOPS CMS](book/10aboutxoops.md)
+
 
