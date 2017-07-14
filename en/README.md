@@ -8,7 +8,6 @@ Module Version x.xx
 
 Tutorial Version x.xx
       
-![logoModule.png](assets/logoModule.png)
             
 ## User Manual
 
@@ -17,9 +16,6 @@ Tutorial Version x.xx
 ## Module Purpose 
 
 This module is for .....
-
-![image001.png](assets/image001.png)
-*Figure 1: Main view of the XXX Module (Admin side)*
 
 ## Download/Fork the Module ![](http://xoops.org/images/forkit.png) 
 
