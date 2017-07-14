@@ -1,29 +1,26 @@
 ### _XOOPS Documentation Series_
 ![logoXoops.jpg](assets/logoXoops.jpg)
 
-# Module XXX
-#### for XOOPS 2.5.8
+# XOOPS Module Structure & Coding Style Guide
+#### for XOOPS 2.5.9
 
-Module Version x.xx
+Tutorial Version 1.00      
+	  
+           
+## Developer Manual
 
-Tutorial Version x.xx
-      
-            
-## User Manual
+## View it on: [![Gitbook](http://xoops.org/images/logoGitbookSmall.png)](https://www.gitbook.com/book/xoops/XXX-tutorial/) 
 
-© 2016 XOOPS Project ([www.xoops.org](http://xoops.org))  
+© 2017 XOOPS Project ([www.xoops.org](http://xoops.org))  
 
-## Module Purpose 
+## Tutorial Purpose 
 
-This module is for .....
+This tutorial documents the recommended structure for a XOOPS 2.5.9 module 
 
-## Download/Fork the Module ![](http://xoops.org/images/forkit.png) 
-
-**You can fork the module --> [here](https://github.com/XoopsModules25x/XXX))** 
 
 ## How to Contribute
 
-[You can contribute on GitHub](https://github.com/XoopsDocs/XXX-tutorial). Changes will be [pushed to Gitbook.io automatically](https://www.gitbook.com/book/xoops/XXX-tutorial/activity) when the [main repository](https://github.com/XoopsDocs/XXX-tutorial) changes.
+[You can contribute on GitHub](https://github.com/XoopsDocs/xoops-module-structure). Changes will be [pushed to Gitbook.io automatically](https://www.gitbook.com/book/xoops/xoops-module-structure/activity) when the [main repository](https://github.com/XoopsDocs/xoops-module-structure) changes.
 
 Editing the book can be done either by updating the markdown files with a text editor, or opening the repository in [the Gitbook desktop app](https://github.com/GitbookIO/editor/blob/master/README.md). The desktop app will give you a live preview option.
 
