@@ -1,5 +1,6 @@
-# Table of Content
+# Summary
 
+* [Introduction](README.md)
 * [Introduction](book/0introduction.md)
 * [Style Guide](/book/0styleguide.md)
 * [Administration Menu](book/2administration.md)
@@ -11,6 +12,5 @@
 * [Other](book/8other.md)
 * [Module Credits](book/9credits.md)
 * [About XOOPS CMS](book/10aboutxoops.md)
-
-
+* [Testing](testing.md)
 
