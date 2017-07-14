@@ -12,5 +12,5 @@
 * [Other](book/8other.md)
 * [Module Credits](book/9credits.md)
 * [About XOOPS CMS](book/10aboutxoops.md)
-* [Testing](testing.md)
+* [Testing](book/testing.md)
 
