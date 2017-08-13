@@ -150,7 +150,7 @@ postgresql.sql
 postgreSQL dump file**
 
 ### /templates
-HTML files for Xoops 2 RC3 and later module templates to be called by xoops_version.php & modversion array. All templates used in the module should be found in this directory.
+Smarty template files for XOOPS to be called by xoops_version.php & modversion array. All templates used in the module should be found in this directory.
 
 **module_start_page.tpl**
 
