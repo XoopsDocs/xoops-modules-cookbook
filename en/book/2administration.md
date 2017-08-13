@@ -8,20 +8,24 @@ The following is a summary of the Basic Module Structure document by Onokazu. No
 
 Create the following directory structure and files as a skeleton code that will form the basis of your new module.
 
-|||
-|--|--|
-|/admin|admin_header.php<br>index.php<br>menu.php
-|/blocks||
-|/language||
-| 
-|------/english| admin.php<br> blocks.php<br>main.php<br>modinfo.php|
-|/sql||
-|/templates||
-|----/admin<br>----/blocks||
-|/testdata||
-|/tests||
-|xoops_version.php<br>header.php<br>index.php||
-|||
+|Folder|Files|Description|
+|--|--|--|
+|/admin|admin_header.php<br>index.php<br>menu.php|Admin files|
+|/blocks||block files|
+|/config|config.php|configuration files|
+|/language||local language files|
+|------/english| admin.php<br> blocks.php<br>main.php<br>modinfo.php||
+|/public||web files<br> formerly /assets folder |
+|----/css||CSS files|
+|----/img||images & icons|
+|----/js||JavaScript files|
+|/sql||database setup files|
+|/templates||Smarty templates|
+|----/admin<br>----/blocks|||
+|/tests||test files|
+|----/testdata||sample data files|
+|xoops_version.php<br>header.php<br>index.php|||
+||||
 
 ## Function of skeleton directories and files
 The actual *functions* of these directories and files are described below. This is based partly on the Basic Module Structure by Onokazu and Coolpop’s Module Kickstart Guide. It is also based on an analysis of a simple module – Polls – and the code and comments therein. 
