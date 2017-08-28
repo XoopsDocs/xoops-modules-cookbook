@@ -250,16 +250,16 @@ public function sendEmail(XoopsModule $module, $email = null) {
 Comments should be indented to a level consistent with the code it is commenting. Commenting indentation for code (ie. code temporarily removed) should start at column 0 (zero) so it is easily identified as code/comments to be removed before release.
 
 ### PHP Comments - Single line
-* Comments inside a PHP file SHOULD utilize the standard single line (\/\/ \<comment\>) format unless the comment is intended to be used for code inspection.
-* Comments intended for code inspection SHOULD use (\/\* <comment> \*\/) multi-line style comments. For example: `/* @var XoopsObject $object */`
+* Comments inside a PHP file SHOULD utilize the standard single line (`// <comment>`) format unless the comment is intended to be used for code inspection.
+* Comments intended for code inspection SHOULD use (`/* <comment> */`) multi-line style comments. For example: `/* @var XoopsObject $object */`
 
-* Comments MUST not utilize C-style (\# \<comment\>) style comments.
+* Comments MUST not utilize C-style (`# <comment>`) style comments.
 
 ### PHP Comments - Multi-line
-Multiline comments SHOULD use the standard multi-line (\/\* \<comment\> \*\/) method. Multi-line PhpDoc comments SHOULD be used in accordance with the _PhpDocumentor Comments_ paragraph above.
+Multiline comments SHOULD use the standard multi-line (`/* <comment> */`) method. Multi-line PhpDoc comments SHOULD be used in accordance with the _PhpDocumentor Comments_ paragraph above.
  
 ### HTML / SMARTY Comments
-It is RECOMMENDED that only comments to be viewed by end users (administrators, site users, etc.) use HTML comments (\<\!\-\- \<comment\> \-\-\>). It is preferred that any _internal_ comments intended for modules/theme developers utilize smarty comments \<\{\* \<comment\> \*\}\> since these comments are not rendered in the generated HTML.
+It is RECOMMENDED that only comments to be viewed by end users (administrators, site users, etc.) use HTML comments (```<!-- <comment> -->```). It is preferred that any _internal_ comments intended for modules/theme developers utilize smarty comments ```<{* <comment> *}>``` since these comments are not rendered in the generated HTML.
 
 ### Comment Example
 ```php
