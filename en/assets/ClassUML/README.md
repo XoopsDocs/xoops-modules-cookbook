@@ -1,0 +1,1 @@
+#### This folder is for UML diagrams of XOOPS Classes
