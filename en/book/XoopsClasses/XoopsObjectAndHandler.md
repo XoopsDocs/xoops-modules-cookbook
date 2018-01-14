@@ -1,6 +1,6 @@
 ## XoopsObject and XoopsObjectHandler
 
-XOOPS' early data persistence architecture was based on the [Data Mapper pattern](http://martinfowler.com/eaaCatalog/dataMapper.html), with two abstract classes to aid in the class development **XoopsObject **and **XoopsObjectHandler**
+XOOPS' early data persistence architecture was based on the [Data Mapper pattern](http://martinfowler.com/eaaCatalog/dataMapper.html), with two abstract classes to aid in the class development **XoopsObject** and **XoopsObjectHandler**
 * XoopsObject: abstract class of Data Object
 * XoopsObjectHandler: Mapper. An abstract class that saves XoopsObject in DB or rebuilds XoopsObject from DB 
 
