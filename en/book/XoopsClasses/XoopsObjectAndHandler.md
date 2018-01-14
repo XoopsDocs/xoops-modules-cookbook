@@ -20,7 +20,7 @@ and for **XoopsObjectHandler**:
 
 These functions will become easier to track down in the file system (since they are connected to a class, it is just a matter of finding the class and not going through the function files in the module/core/PHP native in search for it.
 
-An additional idea is that the XoopsObjectHandler-extending class should be a **Data Access Object**, i.e. the class, which handles database calls - and leaving the XoopsObject-extending class to have object-describing methods, such as methods which handle and manipulate variables, calling methods on the handler for retrieving, updating and inserting data in the database.
+An additional idea is that the **XoopsObjectHandler**-extending class should be a **Data Access Object**, i.e. the class, which handles database calls - and leaving the **XoopsObject**-extending class to have object-describing methods, such as methods which handle and manipulate variables, calling methods on the handler for retrieving, updating and inserting data in the database.
 
 NOTE: A change in the class factory method is expected in Xoops 2.2, so the advice from the core devs is that you should not go to a great length to change existing modules to follow this architecture - however, I hope that this guide makes it easier to understand the core classes, which use this architecture.
 
