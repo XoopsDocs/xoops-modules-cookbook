@@ -150,14 +150,20 @@ postgresql.sql
 postgreSQL dump file**
 
 ### /templates
-Smarty template files for XOOPS to be called by xoops_version.php & modversion array. All templates used in the module should be found in this directory.
+[Smarty ](https://www.smarty.net/) template files for XOOPS are called by ```xoops_version.php``` & ```modversion array```. 
+
+All templates used in the module should be found in this directory.
 
 **module_start_page.tpl**
 
-### /templates/blocks
-HTML files for Xoops 2 RC3 and later module blocks templates to be called by xoops_version.php & modversion array for 'blocks' items. These files use smarty variables to display module information. 
+#### /templates/admin
 
-All templates used in module blocks should be found here. These use smarty block variables variables to display module blocks information.
+Location for all templates used in the Admin (Control Panel) of the module.
+
+#### /templates/blocks
+Location for ```.tpl``` template files used for blocks, and called by ```xoops_version.php``` & ```modversion array``` for 'blocks' items. These files use [Smarty ](https://www.smarty.net/) variables to display module information. 
+
+All templates used in module blocks should be found here. They use [Smarty ](https://www.smarty.net/) block variables to display module blocks information.
 
 
 
