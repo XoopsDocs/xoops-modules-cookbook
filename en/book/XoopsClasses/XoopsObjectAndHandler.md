@@ -1,6 +1,10 @@
 ## XoopsObject and XoopsObjectHandler
 
-XOOPS has two abstract classes to aid in the class development **XoopsObject **and **XoopsObjectHandler**/**XoopsPersistableObjectHandler**
+XOOPS has two abstract classes to aid in the class development **XoopsObject **and **XoopsObjectHandler**
+
+![](../../assets/ClassUML/XoopsDataMapperArchitecture.png)
+
+
 
 The idea behind them is that a class can extend **XoopsObject** to describe an object, whereas extending **XoopsObjectHandler **will give more like an interface for handling the objects, i.e. get, insert, delete and create objects. 
 
