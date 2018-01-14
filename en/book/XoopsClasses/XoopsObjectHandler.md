@@ -9,7 +9,7 @@ Most Important Methods
 *   **insert()** - save object in database (either insert or update)
 *   **delete()** - delete object in database
 
-![](../../assets/ClassUML/XoopsPersistableObjectHandler.png)
+![](../../assets/ClassUML/XoopsObjectHandler.png)
 
 #### Usage
 Instead of instantiating your objects directly, the idea is to use the **ObjectHandler **instead. An object is created (new object - it can still come from the database or be an entirely new object) with this code:
