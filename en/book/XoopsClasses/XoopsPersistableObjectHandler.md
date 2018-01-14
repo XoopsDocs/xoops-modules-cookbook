@@ -3,7 +3,9 @@
 #### Definition
 **XoopsPersistableObjectHandler(Database $db )**
 
-The XoopsPersistableObjectHandler is an enhanced version of XoopsObjectHandler that makes it possible to build a fully functional object handler class with a simple one-line constructor.
+The ```XoopsPersistableObjectHandler``` is an enhanced version of ```XoopsObjectHandler``` that makes it possible to build a fully functional object handler class with a simple one-line constructor. 
+
+As previously mentioned, it is based on the [Data Mapper Patter](https://martinfowler.com/eaaCatalog/dataMapper.html) and partially the [Repository Pattern](https://martinfowler.com/eaaCatalog/repository.html)
 
 ![](../../assets/ClassUML/XoopsPersistableObjectHandler.png)
 
@@ -28,7 +30,9 @@ Most Important Methods
 * **cleanOrphan()**: linking table mode, remove orphaned data in the data table
 * **synchronization()**: Data Synchronization
 
-
-
+**Advantages of Data Mapper architecture:**
+* Each object has a single responsibility, thus preserving the integrity of SOLID design principles, and keeping each object simple and to the point.
+* The business logic and persistence are loosely coupled - if you want to persist in an XML file or some other format, you can just write a new mapper and don't have to touch the domain object. (see [here](http://russellscottwalker.blogspot.com/2013/10/active-record-vs-data-mapper.html))
 
 #### Usage
+
