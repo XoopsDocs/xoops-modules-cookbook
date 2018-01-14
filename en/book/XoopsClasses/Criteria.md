@@ -6,6 +6,10 @@ The XOOPS API has a class called **Criteria** to aid in database searches. The c
 Criteria Criteria (string $column, string $value = , string $operator = '=', mixed $prefix = , mixed $function = )
 ```
 
+![](../../assets/ClassUML/Criteria.png)
+
+
+
 It's handy for returning a list of objects from the XoopsPersistableObjectHandler class.
 Example:
 ```php
