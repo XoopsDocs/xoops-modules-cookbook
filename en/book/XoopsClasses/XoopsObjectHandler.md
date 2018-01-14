@@ -3,6 +3,11 @@
 #### Definition
 **XoopsObjectHandler(Database $db )**
 
+The early persistence architecture of XOOPS using the XoopsObjectHandler is a [Data Mapper pattern](http://martinfowler.com/eaaCatalog/dataMapper.html):
+* XoopsObject: abstract class of data object
+* XoopsObjectHandler: Mapper. An abstract class that saves XoopsObject in DB or rebuilds XoopsObject from DB
+
+
 Most Important Methods
 *   **create()** - creates a new object
 *   **get()** - get object from database
