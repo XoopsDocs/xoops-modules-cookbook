@@ -1,4 +1,4 @@
-## XoopsFormButtonTray
+## XoopsFormButton
 
-![](../../assets/ClassUML/XoopsFormButtonTray.png)
+![](../../assets/ClassUML/XoopsFormButton.png)
 
