@@ -1,7 +1,9 @@
 ## XoopsForm
 
 #### Definition
+```php
 XoopsForm( string $title, string $name, string $action, string $method = "post" )
+```
 
 #### Most Important Methods
 *   addElement() - Add an XOOPS Form Element to the form
