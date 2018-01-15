@@ -8,3 +8,8 @@ XoopsForm( string $title, string $name, string $action, string $method = "post" 
 *   assign() - assign to smarty form template instead of displaying directly
 *   display() - displays rendered form
 *   render() - returns renderered form
+
+
+
+![](../../assets/ClassUML/XoopsForm.png)
+
