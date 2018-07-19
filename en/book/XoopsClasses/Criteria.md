@@ -10,7 +10,7 @@ Criteria Criteria (string $column, string $value = , string $operator = '=', m
 
 
 
-It's handy for returning a list of objects from the XoopsPersistableObjectHandler class.
+It's handy for returning a list of objects from the **XoopsPersistableObjectHandler** class.
 Example:
 ```php
 $criteria = new Criteria('id', $object_id); 
