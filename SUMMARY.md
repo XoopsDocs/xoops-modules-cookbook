@@ -8,7 +8,7 @@
 * [Preferences](3preferences.md)
 * [Classes](classes/README.md)
   * [Helper Class](classes/helper-class.md)
-  * [Key Classes](classes/key-classes.md)
+  * [Key Classes/Objects API](classes/key-classes.md)
 * [Database](4operations.md)
 * [XMF](5userside.md)
 * [Blocks](6blocks.md)

@@ -1,6 +1,6 @@
-# Key Classes
+# Key Classes/Objects API
 
-### Key Classes/Objects API
+## Key Classes/Objects API
 
 **Using Xoops API**
 
@@ -40,7 +40,7 @@ you can then obtain a refereance to an instance the handler class like so: In /m
 
 Built in data object handlers can be obtained via xoops\_gethandler\(''\). Search for the use of this idiom in other modules for an idea of how these classes let you build data access objects to interface with corresponding database tables.
 
-![](../en/assets/ClassUML/XoopsObject.png)
+![](../.gitbook/assets/xoopsobject.png)
 
-![](../en/assets/ClassUML/XoopsPersistableObjectHandler.png)
+![](../.gitbook/assets/xoopspersistableobjecthandler.png)
 
