@@ -6,46 +6,73 @@ description: How to migrate older XOOPS modules to Namespaces and Autoloading?
 
 1\) copy the folder /preloads to your module and change the name of the class in core.php
 
-2\) split each class in your /class folder into Class and ClassHandler
+2\) split each class in your /class folder into Class and ClassHandler. For example, if you have a file 'item.php' with a class called Item and ItemHandler in a module called Bingo:
 
-* add on top of the original class \(Xxxxx is the name of the module's directory, with first letter in CAPS\)
+* add on top of the original class \(Bingo is the name of the module's directory, with first letter in CAPS\)
 
-  namespace XoopsModules\Xxxxx
+  ```php 
+  namespace XoopsModules\Bingo;
+  ```
 
-* rename the file to Class.php
-* copy the files to ClassHandler.php
-* in Class.php remove the ClassHandler code
-* in ClassHandler.php remove the Class code
+* rename the file to Item.php
+* duplicate the file to ItemHandler.php
+* in Item.php remove the ItemHandler code
+* in ItemHandler.php remove the Item code
 
-3\) add Helper.php class for consistency we call the class "Helper" and the variable "$helper" in all modules. Because it will be in namespace, we'll know exactly from which module it is coming from during debugging, so there is no need anymore to call it "$publisher", etc.
+3\) add Helper.php class for consistency we call the class "Helper" and the variable "$helper" in all modules. Because it will be in namespace, we'll know exactly from which module it is coming from during debugging, so there is no need anymore to call it after the module, e.g. "$publisher", etc.
 
-4\) replace all instantiation calls to the ClassHandler classes using XOOPS to call directly as "new `\Xxxxx\ClassHandler()" or using Helper, e.g.:`
+4\) replace all instantiation calls to the ItemHandler classes using XOOPS to call directly as 
+```php
+new `\Bingo\ItemHandler()" 
+```
+or using the Helper, which is the preferred way, e.g.:
 
-`$tagHandler = \XoopsModules\Tag\Helper::getInstance()->getHandler('Tag');`
+```php 
+$itemHandler = \XoopsModules\Bingo\Helper::getInstance()->getHandler('Item');`
+```
 
 Please note: I'm using the exact name of the class, incl. first letter in CAPS, because I don't want the Helper to deal with it, since some classes might have names like "ClassBestInTheWorld"
 
 5\) when you using a namespaced Class, add on top the import code, e.g.:
 
-`use XoopsModules\Xxxxx\Class;`
+```php 
+use XoopsModules\Bingo\Item;
+```
 
-6\) One more thing: in few cases you might include the call:
+6\)In few cases you might include the call:
 
-`include dirname(__DIR__) . '/preloads/autoloader.php';`  
-
-
-
+```php 
+include dirname(__DIR__) . '/preloads/autoloader.php';
+```
 Because some files might not be aware of the namespaces.
 
 7\) Classes that you use in all your modules, and you think that they would qualify for XMF, put them in /class/Common folder
 
 8\) Few more items:
 
-* rename the class file names so they match the class name, e.g. Team is in "Team.php"  \(the folders have to follow it as well\)
-* adjust the constructors of the ClassHandler by using "Class::class"
+* make sure to rename the class file names so they match the class name, e.g. Team is in "Team.php"  \(the folders have to follow it as well\)
+* adjust the constructors of the ItemHandler by using "Item::class", for example, from this:
+
+```php
+parent::__construct($db, 'publisher_items', 'item', 'itemid', 'title');
+```
+to this
+```php
+parent::__construct($db, 'publisher_items', Item::class, 'itemid', 'title');
+```
 * since we are now using namespaces, all XOOPS classes should be namespaced, i.e. you need to add "\" in front of them, so PHP knows what you mean
 * make sure that all $helper instances exist
-* remove direct links to class files since we're using autoloading
+* remove direct links to module class files since we're using autoloading, e.g. these lines have to be deleted:
+
+```php
+include_once XOOPS_ROOT_PATH . '/modules/wgteams/class/teams.php';
+```
+since we're using now:
+
+```php
+$helper = \XoopsModules\Wgteams\Helper::getInstance();
+$teamsHandler = $helper->getHandler('Teams');
+```
 
 The main objective was:
 
@@ -53,10 +80,13 @@ The main objective was:
 
 2\) common class and function names for the same classes and functions/methods, incl. PSR standards. That's why instance of Helper class should be $helper, and instance of a Handler class should be $classHandler and not the old $class\_handler or some other names
 
-3\) I'm also slowly seeing the advantage of using the "reverse Hungarian notation" for variable, like: $itemObj   
+3\) We might also standardize on using the "reverse Hungarian notation" for variable, like: 
+```php
+$itemObj   
 $itemsArray
+```
 
-to see right away what I'm dealing with, but if we completely switch to PHP7 and use strong typing, the need for it might go away.
+to see right away what I'm dealing with, i.e. an object or an array, but if we completely switch to PHP7 and use strong typing, the need for it might go away.
 
 
 
