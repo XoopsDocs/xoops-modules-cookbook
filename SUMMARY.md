@@ -36,3 +36,7 @@
   * [Helper Class](classes/classes/helper-class.md)
   * [Key Classes/Objects API](classes/classes/key-classes.md)
 
+## Migration
+
+* [Namespaces/Autoload](migration/namespaces-autoload.md)
+
