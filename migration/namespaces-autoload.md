@@ -62,6 +62,21 @@ to this
 parent::__construct($db, 'bingo_items', Item::class, 'itemid', 'title');
 ```
 * since we are now using namespaces, all XOOPS classes should be namespaced, i.e. you need to add "\" in front of them, so PHP knows what you mean
+
+Examples:
+| xoops form classes | replace by |
+| ------ | ------ |
+| XoopsThemeForm | \XoopsThemeForm |
+| XoopsFormText | \XoopsFormText |
+| XoopsFormEditor | \XoopsFormEditor |
+| ... | ... |
+
+| other xoops classes | replace by |
+| ------ | ------ |
+| XoopsUser | \XoopsUser |
+| XoopsLists | \XoopsLists |
+| ... | ... |
+
 * make sure that all $helper instances exist
 * remove direct links to module class files since we're using autoloading, e.g. these lines have to be deleted:
 
