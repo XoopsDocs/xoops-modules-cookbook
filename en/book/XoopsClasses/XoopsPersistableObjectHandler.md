@@ -12,7 +12,7 @@ As previously mentioned, it is based on the [Data Mapper Patter](https://martinf
 Most Important Methods
 * **create()**: Create a new object
 * **get()**: read data from the database and instantiate an object
-* **insert()**: The current object is inserted into the database or its data is updated. The system automatically goes through the process of data validation and escaping to validate query syntax correctness and security of the operation of the database; we strongly recommend that module developers adopt this method or inherit this method of writing data to the database.
+* **insert()**: The current object is inserted into the database or its data is updated. The system automatically goes through the process of data validation and escaping to validate query syntax correctness and security of the operation of the database; we strongly recommend that module developers adopt this method or inherit this method of writing data to the database.
 * **delete()**: delete the current object from the database
 * **deleteAll()**: Delete all objects from the database that meet the conditions described in the $criteria
 * **updateAll()**: update the database to meet the $criteria as described in the conditions of all the objects field data

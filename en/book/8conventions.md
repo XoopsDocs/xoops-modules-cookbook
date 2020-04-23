@@ -11,10 +11,10 @@ Following these rules will also make easier to maintain your code in the future 
 
 * Entity property names are used for column names.
 
-* Entity properties that are named ID or classname ID are recognized as primary key properties.
+* Entity properties that are named ID or classname ID are recognized as primary key properties.
 
-* A property is interpreted as a foreign key property if it's named ```<navigation property name><primary key property name>``` (for example, StudentID for the Student navigation property since the Student entity's primary key is ID). 
-Foreign key properties can also be named the same - simply ```<primary key property name>``` (for example, EnrollmentID since the Enrollment entity's primary key is EnrollmentID).
+* A property is interpreted as a foreign key property if it's named ```<navigation property name><primary key property name>``` (for example, StudentID for the Student navigation property since the Student entity's primary key is ID). 
+Foreign key properties can also be named the same - simply ```<primary key property name>``` (for example, EnrollmentID since the Enrollment entity's primary key is EnrollmentID).
 
 #### File and Class Name Conventions
 

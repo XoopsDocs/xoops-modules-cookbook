@@ -1,14 +1,42 @@
-# Table of Content
+# Table of contents
 
-* [Introduction](en/book/0introduction.md)
-* [Install/Uninstall](en/book/1install.md)
-* [Administration Menu](en/book/2administration.md)
-* [Preferences](en/book/3preferences.md)
-* [Operating Instructions](en/book/4operations.md)
-* [The User Side](en/book/5userside.md)
-* [Blocks](en/book/6blocks.md)
-* [Templates](en/book/7templates.md)
-* [Other](en/book/8other.md) 
-* [Module Credits](en/book/9credits.md)
-* [About XOOPS CMS](en/book/10aboutxoops.md)
+* [XOOPS Module Structure & Coding Style Guide](README.md)
+* [Introduction](introduction.md)
+* [Style Guide](0styleguide.md)
+* [Module Structure](2administration.md)
+* [Install/Uninstall](1install.md)
+* [Preferences](3preferences.md)
+* [Database](4operations.md)
+* [XMF](5userside.md)
+* [Blocks](6blocks.md)
+* [Templates](7templates.md)
+* [Convention Over Configuration](convention-over-configuration.md)
+* [Clean Code](8other.md)
+* [Credits](9credits.md)
+* [About XOOPS CMS](10aboutxoops.md)
+
+## Common Classes/Traits
+
+* [Classes](common-classes/classes/README.md)
+  * [Breadcrumb](common-classes/classes/breadcrumb.md)
+  * [Configurator](common-classes/classes/configurator.md)
+  * [Migrate](common-classes/classes/migrate.md)
+* [Traits](common-classes/traits/README.md)
+  * [FilesManagement](common-classes/traits/filesmanagement.md)
+  * [ServerStats](common-classes/traits/serverstats.md)
+  * [VersionChecks](common-classes/traits/versionchecks.md)
+
+## Best Practices
+
+* [Best Practices](best-practices/best-practices.md)
+
+## Classes
+
+* [Classes](classes/classes/README.md)
+  * [Helper Class](classes/classes/helper-class.md)
+  * [Key Classes/Objects API](classes/classes/key-classes.md)
+
+## Migration
+
+* [Namespaces/Autoload](migration/namespaces-autoload.md)
 
