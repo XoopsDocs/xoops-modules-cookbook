@@ -1,7 +1,7 @@
 ## XoopsObject
 
 #### Definition
-XoopsObject () Abstract class
+**XoopsObject** is an Abstract class, a base class for all objects in the Xoops kernel (and beyond)
 
 ![](../../assets/ClassUML/XoopsObject.png)
 

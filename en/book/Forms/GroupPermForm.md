@@ -1,5 +1,7 @@
 ## XoopsForm
 
+XoopsForm is an Abstract base class for XOOPS forms
+
 #### Definition
 ```php
 XoopsForm( string $title, string $name, string $action, string $method = "post" )

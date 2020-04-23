@@ -138,7 +138,7 @@ $locations = ['Austin', 'New York', 'San Francisco'];
 
 foreach($i=0; $i<count($locations); $i++) {
     $location = $locations[$i];
-
+    
     doStuff();
     doSomeOtherStuff();
     // ...
@@ -320,7 +320,7 @@ function parseBetterJSAlternative($code) {
     $regexes = [
         // ...
     ];
-
+    
     $statements = split(' ', $code);
     $tokens = [];
     foreach($regexes as $regex) {
@@ -328,12 +328,12 @@ function parseBetterJSAlternative($code) {
             // ...
         }
     }
-
+    
     $ast = [];
     foreach($tokens as $token) {
         // lex...
     }
-
+    
     foreach($ast as $node) {
         // parse...
     }
@@ -347,7 +347,7 @@ function tokenize($code) {
     $regexes = [
         // ...
     ];
-
+    
     $statements = split(' ', $code);
     $tokens = [];
     foreach($regexes as $regex) {
@@ -355,7 +355,7 @@ function tokenize($code) {
             $tokens[] = /* ... */;
         });
     });
-
+    
     return $tokens;
 }
 
@@ -364,7 +364,7 @@ function lexer($tokens) {
     foreach($tokens as $token) {
         $ast[] = /* ... */;
     });
-
+    
     return $ast;
 }
 
@@ -402,7 +402,7 @@ function showDeveloperList($developers) {
             $experience,
             $githubLink
         ];
-
+        
         render($data);
     }
 }
@@ -417,7 +417,7 @@ function showManagerList($managers) {
             $experience,
             $githubLink
         ];
-
+        
         render($data);
     }
 }
@@ -436,7 +436,7 @@ function showList($employees) {
             $experience,
             $githubLink
         ];
-
+        
         render($data);
     }
 }
@@ -693,7 +693,7 @@ function combine($val1, $val2) {
     if (is_numeric($val1) && is_numeric($val2)) {
         return $val1 + $val2;
     }
-
+    
     throw new \Exception('Must be of type Number');
 }
 ```
@@ -748,7 +748,7 @@ In PHP you can set `public`, `protected` and `private` keywords for methods. Usi
 
 * When you want to do more beyond getting an object property, you don't have
 
-  to look up and change every accessor in your codebase.
+to look up and change every accessor in your codebase.
 
 * Makes adding validation simple when doing a `set`.
 * Encapsulates the internal representation.
@@ -756,7 +756,7 @@ In PHP you can set `public`, `protected` and `private` keywords for methods. Usi
 * Inheriting this class, you can override default functionality.
 * You can lazy load your object's properties, let's say getting it from a
 
-  server.
+server.
 
 Additionally, this is part of Open/Closed principle, from object-oriented design principles.
 
@@ -778,22 +778,22 @@ $bankAccount->balance -= 100;
 ```php
 class BankAccount {
     private $balance;
-
+    
     public function __construct($balance = 1000) {
       $this->balance = $balance;
     }
-
+    
     public function withdrawBalance($amount) {
         if ($amount > $this->balance) {
             throw new \Exception('Amount greater than available balance.');
         }
         $this->balance -= $amount;
     }
-
+    
     public function depositBalance($amount) {
         $this->balance += $amount;
     }
-
+    
     public function getBalance() {
         return $this->balance;
     }
@@ -817,7 +817,7 @@ $balance = $bankAccount->getBalance();
 ```php
 class Employee {
     public $name;
-
+    
     public function __construct($name) {
         $this->name = $name;
     }
@@ -832,11 +832,11 @@ echo 'Employee name: '.$employee->name; // Employee name: John Doe
 ```php
 class Employee {
     protected $name;
-
+    
     public function __construct($name) {
         $this->name = $name;
     }
-
+    
     public function getName() {
         return $this->name;
     }
@@ -862,13 +862,13 @@ class UserSettings {
     public function __construct($user) {
         $this->user = user;
     }
-
+    
     public function changeSettings($settings) {
         if ($this->verifyCredentials()) {
             // ...
         }
     }
-
+    
     private function verifyCredentials() {
         // ...
     }
@@ -883,7 +883,7 @@ class UserAuth {
     public function __construct($user) {
         $this->user = user;
     }
-
+    
     protected function verifyCredentials() {
         // ...
     }
@@ -896,7 +896,7 @@ class UserSettings {
         $this->user = $user;
         $this->auth = new UserAuth($user);
     }
-
+    
     public function changeSettings($settings) {
         if ($this->auth->verifyCredentials()) {
             // ...
@@ -940,7 +940,7 @@ class HttpRequester {
     public function __construct($adapter) {
         $this->adapter = $adapter;
     }
-
+    
     public function fetch($url) {
         $adapterName = $this->adapter->getName();
         if ($adapterName === 'ajaxAdapter') {
@@ -949,11 +949,11 @@ class HttpRequester {
             return $this->makeHttpCall($url);
         }
     }
-
+    
     protected function makeAjaxCall($url) {
         // request and return promise
     }
-
+    
     protected function makeHttpCall($url) {
         // request and return promise
     }
@@ -972,7 +972,7 @@ class AjaxAdapter extends Adapter {
     protected function getName() {
         return 'ajaxAdapter';
     }
-
+    
     public function request($url) {
         // request and return promise
     }
@@ -982,7 +982,7 @@ class NodeAdapter extends Adapter {
     protected function getName() {
         return 'nodeAdapter';
     }
-
+    
     public function request($url) {
         // request and return promise
     }
@@ -993,7 +993,7 @@ class HttpRequester {
     public function __construct(Adapter $adapter) {
         $this->adapter = $adapter;
     }
-
+    
     public function fetch($url) {
         return $this->adapter->request($url);
     }
@@ -1013,28 +1013,28 @@ The best explanation for this is if you have a parent class and a child class, t
 ```php
 class Rectangle {
     private $width, $height;
-
+    
     public function __construct() {
         $this->width = 0;
         $this->height = 0;
     }
-
+    
     public function setColor($color) {
         // ...
     }
-
+    
     public function render($area) {
         // ...
     }
-
+    
     public function setWidth($width) {
         $this->width = $width;
     }
-
+    
     public function setHeight($height) {
         $this->height = $height;
     }
-
+    
     public function getArea() {
         return $this->width * $this->height;
     }
@@ -1044,7 +1044,7 @@ class Square extends Rectangle {
     public function setWidth($width) {
         $this->width = $this->height = $width;
     }
-
+    
     public function setHeight(height) {
         $this->width = $this->height = $height;
     }
@@ -1068,13 +1068,13 @@ renderLargeRectangles($rectangles);
 ```php
 abstract class Shape {
     private $width, $height;
-
+    
     abstract public function getArea();
-
+    
     public function setColor($color) {
         // ...
     }
-
+    
     public function render($area) {
         // ...
     }
@@ -1086,15 +1086,15 @@ class Rectangle extends Shape {
         $this->width = 0;
         $this->height = 0;
     }
-
+    
     public function setWidth($width) {
         $this->width = $width;
     }
-
+    
     public function setHeight($height) {
         $this->height = $height;
     }
-
+    
     public function getArea() {
         return $this->width * $this->height;
     }
@@ -1105,11 +1105,11 @@ class Square extends Shape {
         parent::__construct();
         $this->length = 0;
     }
-
+    
     public function setLength($length) {
         $this->length = $length;
     }
-
+    
     public function getArea() {
         return $this->length * $this->length;
     }
@@ -1123,7 +1123,7 @@ function renderLargeRectangles($rectangles) {
             $rectangle->setWidth(4);
             $rectangle->setHeight(5);
         }
-
+        
         $area = $rectangle->getArea(); 
         $rectangle->render($area);
     });
@@ -1171,7 +1171,7 @@ class SuperWorker implements WorkerInterface {
 class Manager {
   /** @var WorkerInterface $worker **/
   private $worker;
-
+  
   public void setWorker(WorkerInterface $worker) {
         $this->worker = $worker;
     }
@@ -1256,11 +1256,11 @@ class Worker {
 class Manager {
     /** @var Worker $worker **/
     private $worker;
-
+    
     public function __construct(Worker $worker) {
         $this->worker = $worker;
     }
-
+    
     public function manage() {
         $this->worker->work();
     }
@@ -1295,11 +1295,11 @@ class SuperWorker implements WorkerInterface {
 class Manager {
     /** @var Worker $worker **/
     private $worker;
-
+    
     public void __construct(WorkerInterface $worker) {
         $this->worker = $worker;
     }
-
+    
     public void manage() {
         $this->worker->work();
     }
@@ -1317,25 +1317,25 @@ This pattern is very useful and commonly used it many libraries such as PHPUnit 
 ```php
 class Car {
     private $make, $model, $color;
-
+    
     public function __construct() {
         $this->make = 'Honda';
         $this->model = 'Accord';
         $this->color = 'white';
     }
-
+    
     public function setMake($make) {
         $this->make = $make;
     }
-
+    
     public function setModel($model) {
         $this->model = $model;
     }
-
+    
     public function setColor($color) {
         $this->color = $color;
     }
-
+    
     public function dump() {
         var_dump($this->make, $this->model, $this->color);
     }
@@ -1353,34 +1353,34 @@ $car->dump();
 ```php
 class Car {
     private $make, $model, $color;
-
+    
     public function __construct() {
         $this->make = 'Honda';
         $this->model = 'Accord';
         $this->color = 'white';
     }
-
+    
     public function setMake($make) {
         $this->make = $make;
-
+        
         // NOTE: Returning this for chaining
         return $this;
     }
-
+    
     public function setModel($model) {
         $this->model = $model;
-
+        
         // NOTE: Returning this for chaining
         return $this;
     }
-
+    
     public function setColor($color) {
         $this->color = $color;
-
+        
         // NOTE: Returning this for chaining
         return $this;
     }
-
+    
     public function dump() {
         var_dump($this->make, $this->model, $this->color);
     }
@@ -1415,12 +1415,12 @@ You might be wondering then, "when should I use inheritance?" It depends on your
 ```php
 class Employee {
     private $name, $email;
-
+    
     public function __construct($name, $email) {
         $this->name = $name;
         $this->email = $email;
     }
-
+    
     // ...
 }
 
@@ -1429,13 +1429,13 @@ class Employee {
 
 class EmployeeTaxData extends Employee {
     private $ssn, $salary;
-
+    
     public function __construct($ssn, $salary) {
         parent::__construct();
         $this->ssn = $ssn;
         $this->salary = $salary;
     }
-
+    
     // ...
 }
 ```
@@ -1445,23 +1445,23 @@ class EmployeeTaxData extends Employee {
 ```php
 class EmployeeTaxData {
     private $ssn, $salary;
-
+    
     public function __construct($ssn, $salary) {
         $this->ssn = $ssn;
         $this->salary = $salary;
     }
-
+    
     // ...
 }
 
 class Employee {
     private $name, $email, $taxData;
-
+    
     public function __construct($name, $email) {
         $this->name = $name;
         $this->email = $email;
     }
-
+    
     public function setTaxData($ssn, $salary) {
         $this->taxData = new EmployeeTaxData($ssn, $salary);
     }
