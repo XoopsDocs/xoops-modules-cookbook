@@ -26,7 +26,7 @@ Editing the book can be done either by updating the markdown files with a text e
 
 # Table of Content
 
-* [Introduction](book/0introduction.md)
+* [Introduction](book/introduction.md)
 * [Install/Uninstall](book/1install.md)
 * [Administration Menu](book/2administration.md)
 * [Preferences](book/3preferences.md)

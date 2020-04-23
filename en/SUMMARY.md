@@ -3,7 +3,7 @@
 * [Read me](README.md)
 * [Introduction](book/introduction.md)
 * [Style Guides](book/standards/styleguide.md)
-* [Folder Structure](book/modulestructure.md)
+* [Folder Structure](book/standards/modulestructure.md)
 * [Preferences](book/3preferences.md)
 * [Blocks](book/6blocks.md)
 * [Templates](book/7templates.md)
