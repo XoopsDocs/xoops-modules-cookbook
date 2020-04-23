@@ -33,6 +33,6 @@ In /modules/module/index.php:
 Built in data object handlers can be obtained via xoops_gethandler('<class>').
 Search for the use of this idiom in other modules for an idea of how these classes let you build data access objects to interface with corresponding database tables.
 
-![](../assets/ClassUML/XoopsObject.png)
+![](../assets/uml/XoopsObject.png)
 
-![](../assets/ClassUML/XoopsPersistableObjectHandler.png)
+![](../assets/uml/XoopsPersistableObjectHandler.png)
