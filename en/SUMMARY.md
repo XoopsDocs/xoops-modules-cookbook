@@ -26,10 +26,10 @@
 * [Classes](book/core/README.md)
   * [Key Classes](book/core/key-classes.md)  
   * [Helper Class](book/core/helper-class.md)
-  * [Criteria](Criteria.md)
-  * [XoopsObject](XoopsObject.md)
-  * [XoopsObject & XoopsObjectHandler](XoopsObjectAndHandler.md)
-  * [XoopsObjectHandler & XoopsPersistableObjectHandler](XoopsPersistableObjectHandler.md)
+  * [Criteria](book/core/Criteria.md)
+  * [XoopsObject](book/core/XoopsObject.md)
+  * [XoopsObject & XoopsObjectHandler](book/core/XoopsObjectAndHandler.md)
+  * [XoopsObjectHandler & XoopsPersistableObjectHandler](book/core/XoopsPersistableObjectHandler.md)
 
 ## Common Classes/Traits
 
