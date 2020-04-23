@@ -11,7 +11,7 @@ Tutorial Version 1.00
 
 ## View it on: [![Gitbook](https://xoops.org/images/logoGitbookSmall.png)](https://www.gitbook.com/book/xoops/XXX-tutorial/) 
 
-© 2018 XOOPS Project ([www.xoops.org](https://xoops.org))  
+© 2020 XOOPS Project ([www.xoops.org](https://xoops.org))  
 
 ## Tutorial Purpose 
 
