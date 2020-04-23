@@ -7,7 +7,7 @@
 Version 0.9      
 
            
-## Developer Manual
+## Developer Guide
 
 ## View it on: [Gitbook](https://xoops.gitbook.io/xoops-modules-cookbook/) 
 
@@ -28,17 +28,14 @@ Changes will be [pushed to Gitbook.io automatically](https://xoops.gitbook.io/xo
 
 # Table of Content
 
-* [Introduction](en/book/0introduction.md)
-* [Style Guide](en/book/0styleguide.md)
-* [Install/Uninstall](en/book/1install.md)
-* [Administration Menu](en/book/2administration.md)
+* [Introduction](en/book/introduction.md)
+* [Style Guides](en/book/standards/styleguide.md)
+* [Folder Structure](en/book/modulestructure.md)
 * [Preferences](en/book/3preferences.md)
-* [Operating Instructions](en/book/4operations.md)
-* [The User Side](en/book/5userside.md)
 * [Blocks](en/book/6blocks.md)
 * [Templates](en/book/7templates.md)
-* [Miscellaneous](en/book/8other.md) 
-* [Module Credits](en/book/9credits.md)
+* [Database](en/book/8database.md)
+* [Credits](en/book/9credits.md)
 * [About XOOPS CMS](en/book/10aboutxoops.md)
 
 ## License:
