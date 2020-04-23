@@ -3,7 +3,7 @@
 * [Read me](README.md)
 * [Introduction](en/book/introduction.md)
 * [Style Guides](en/book/standards/styleguide.md)
-* [Folder Structure](en/book/modulestructure.md)
+* [Folder Structure](en/book/standards/modulestructure.md)
 * [Preferences](en/book/3preferences.md)
 * [Blocks](en/book/6blocks.md)
 * [Templates](en/book/7templates.md)
@@ -18,6 +18,11 @@
 ## Best Practices
 
 * [Best Practices](en/book/best-practices/README.md)
+  * [Conventions over Configuration](en/book/best-practices/conventions.md)
+  * [Add namespaces](en/book/best-practices/AddNamespaces/README.md)
+  * [Add Sample Buttons](en/book/best-practices/AddSampleButtons/README.md)
+  * [Add namespaces](en/book/best-practices/AddNamespaces/README.md)
+  * [Add Comment Notification](en/book/best-practices/AddCommentNotification/README.md)    
 
 
 ## Core Classes
