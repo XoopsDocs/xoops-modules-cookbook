@@ -1,6 +1,6 @@
 # Enable a Module to Use XOOPS Classes
 
-###About this Primer
+### About this Primer
 
 This primer is intended to provide a quick 'jump start' to allow module developers a rudimentary guide to add class support to a XOOPS module. A developer should be able to enable a simple XOOPS class for a module after completing this primer. In general, good design practices for variable sanitation and error checking are not included in this primer but should be implemented in any production module.
 
@@ -164,7 +164,7 @@ class MyclassHandler extends \XoopsPersistableObjectHandler
 
 Now save these contents to _'./mymodule/class/MyclassHandler.php'_.
 
-###Accessing Object Data
+### Accessing Object Data
 
 To create the same query as above using the newly created class (Myclass) to access the database, you can do something like this:
 ```php
