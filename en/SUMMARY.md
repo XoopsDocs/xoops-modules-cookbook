@@ -31,6 +31,9 @@
   * [XoopsObject & XoopsObjectHandler](book/core/XoopsObjectAndHandler.md)
   * [XoopsObjectHandler & XoopsPersistableObjectHandler](book/core/XoopsPersistableObjectHandler.md)
 
+## Working with Database
+* [Using Criteria classes](book/database/usingclasses.md)
+
 ## Common Classes/Traits
 
 * [Classes Overview](book/common/classes/README.md)
