@@ -35,6 +35,9 @@
   * [XoopsObject & XoopsObjectHandler](en/book/core/XoopsObjectAndHandler.md)
   * [XoopsObjectHandler & XoopsPersistableObjectHandler](en/book/core/XoopsPersistableObjectHandler.md)
 
+## Working with Database
+* [Using Criteria classes](en/book/database/usingclasses.md)
+
 ## Common Classes/Traits
 
 * [Classes Overview](en/book/common/classes/README.md)
@@ -55,3 +58,6 @@
 
 * [Namespaces/Autoload](en/book/migration/namespaces-autoload.md)
 
+
+## Testing
+* [Testing Checklist](en/book/testing/modulechecklist.md)
