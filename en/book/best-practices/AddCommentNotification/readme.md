@@ -1,3 +1,6 @@
+In some cases it can be interesting to get notified, if for a specific item a new comment was published on your website.
+The following example shows how to get this working.
+
 In this example you can see the implementation in module wgGallery
 
 
