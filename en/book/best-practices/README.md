@@ -10,5 +10,6 @@ Here we'll be sharing our Best Practices in XOOPS Module Development, experience
 * [Conventions over Configuration](conventions.md)
 * [Add namespaces](AddNamespaces/README.md)
 * [Add Sample Buttons](AddSampleButtons/README.md)
-* [Add namespaces](AddNamespaces/README.md)
+* [Add Notifications](AddNotifications/README.md)
 * [Add Comment Notification](AddCommentNotification/README.md)
+* [Add Comments](AddComments/README.md)
