@@ -33,17 +33,7 @@ You have to add the notification options, which you want to have. In wgGallery w
         
 ### b) or if an image of a specific album have been commented
 
-        // Album Events Image commented
-        $modversion['notification']['event'][] = [
-            'name'          => 'image_comment',
-            'category'      => 'albums',
-            'admin_only'    => 0,
-            'title'         => _MI_WGGALLERY_ALBUMS_IMG_COMMENT_NOTIFY,
-            'caption'       => _MI_WGGALLERY_ALBUMS_IMG_COMMENT_NOTIFY_CAPTION,
-            'description'   => '',
-            'mail_template' => 'global_img_comment_notify',
-            'mail_subject'  => _MI_WGGALLERY_ALBUMS_IMG_COMMENT_NOTIFY_SUBJECT,
-        ];
+This event will be added by XOOPS itself. Therefore no action is required.
 
 
 ## 2) Language files      
