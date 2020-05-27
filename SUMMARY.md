@@ -18,11 +18,6 @@
 ## Best Practices
 
 * [Best Practices](en/book/best-practices/README.md)
-  * [Conventions over Configuration](en/book/best-practices/conventions.md)
-  * [Add namespaces](en/book/best-practices/AddNamespaces/README.md)
-  * [Add Sample Buttons](en/book/best-practices/AddSampleButtons/README.md)
-  * [Add namespaces](en/book/best-practices/AddNamespaces/README.md)
-  * [Add Comment Notification](en/book/best-practices/AddCommentNotification/README.md)    
 
 
 ## Core Classes
