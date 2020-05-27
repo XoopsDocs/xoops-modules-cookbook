@@ -11,7 +11,6 @@
 * [Credits](book/9credits.md)
 * [About XOOPS CMS](book/10aboutxoops.md)
 
-
 ## Coding Standards
 
 * [Our Recommendations](book/standards/README.md)
