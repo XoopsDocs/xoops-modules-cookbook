@@ -180,6 +180,7 @@ The event trigger use following parameters:
      * @param int    $omit_user_id ID of the user to omit from notifications. (default to current user).  set to 0 for all users to receive notification.
 
 If we want to call the global event for new article we can add following code to the save-funtion:
+        
         $tags = [];
         $tags['ITEM_NAME'] = $artTitle;
         $tags['ITEM_URL']  = XOOPS_URL . '/modules/myexample/articles.php?op=show&art_id=' . $artId;
