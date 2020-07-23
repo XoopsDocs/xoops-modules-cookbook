@@ -57,7 +57,7 @@ e.g. you have till now "items.php"
 
           by
 
-               parent::__construct($db, 'mymodule_items', Items:class, 'item_id', 'item_title');"
+               parent::__construct($db, 'mymodule_items', Items::class, 'item_id', 'item_title');"
 
     * the same for categories.php
 
