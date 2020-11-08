@@ -22,7 +22,7 @@ This document is a Cookbook documenting the recommended structure for XOOPS 2.5.
 
 ## How to Contribute
 
-[You can contribute on GitHub](https://github.com/XoopsDocs/xoops-module-structure) by forking the book repository, editing the markdown files with a text editor, and submitting the changes via a Pull Request 
+[You can contribute on GitHub](https://github.com/XoopsDocs/xoops-modules-cookbook) by forking the book repository, editing the markdown files with a text editor, and submitting the changes via a Pull Request 
 
 Changes will be [pushed to Gitbook.io automatically](https://xoops.gitbook.io/xoops-modules-cookbook/).
 
