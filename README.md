@@ -3,7 +3,9 @@
 
 # XOOPS 2.5x Module Developer Cookbook
 #### for XOOPS 2.5.10+
-	  
+### for PHP 7.0+	  
+
+
 Version 0.9      
 
            
@@ -34,6 +36,7 @@ Changes will be [pushed to Gitbook.io automatically](https://xoops.gitbook.io/xo
 * [Preferences](en/book/3preferences.md)
 * [Blocks](en/book/6blocks.md)
 * [Templates](en/book/7templates.md)
+* [Miscellaneous](en/book/8other.md) 
 * [Database](en/book/8database.md)
 * [Credits](en/book/9credits.md)
 * [About XOOPS CMS](en/book/10aboutxoops.md)
