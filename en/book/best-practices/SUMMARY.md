@@ -6,3 +6,4 @@
 * [Add Sample Buttons](AddSampleButtons/README.md)
 * [Add Comment Notification](AddCommentNotification/README.md)
 * [Add Comments](AddComments/README.md)
+* [Ho to handle AND/OR in CriteriaCompo](HandleCriteriaCompo/README.md)
