@@ -13,3 +13,4 @@ Here we'll be sharing our Best Practices in XOOPS Module Development, experience
 * [Add Notifications](AddNotifications/README.md)
 * [Add Comment Notification](AddCommentNotification/README.md)
 * [Add Comments](AddComments/README.md)
+* [Ho to handle AND/OR in CriteriaCompo](HandleCriteriaCompo/README.md)
