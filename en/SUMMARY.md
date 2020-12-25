@@ -19,10 +19,10 @@
 
 * [Best Practices](book/best-practices/README.md)
   * [Conventions over Configuration](book/best-practices/conventions.md)
-  * [Add notification about comment](book/best-practices/AddCommentNotification/readme.md)
-  * [Add comment system](book/best-practices/AddComments/readme.md)
-  * [Add notification system](book/best-practices/AddNotifications/readme.md)
-  * [Add Namespaces](book/best-practices/AddNamespaces/readme.md)
+  * [Add notification about comment](book/best-practices/AddCommentNotification/README.md)
+  * [Add comment system](book/best-practices/AddComments/README.md)
+  * [Add notification system](book/best-practices/AddNotifications/README.md)
+  * [Add Namespaces](book/best-practices/AddNamespaces/README.md)
   * [Ho to handle AND/OR in CriteriaCompo](book/best-practices/HandleCriteriaCompo/README.md)
 
 ## Core Classes
