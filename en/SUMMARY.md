@@ -19,7 +19,7 @@
 
 * [Best Practices](book/best-practices/README.md)
   * [Conventions over Configuration](book/best-practices/conventions.md)
-  * [Add notification about comment](book/best-practices/AddCommentNotification/readme.md)
+  * [Add notification about comment](book/best-practices/AddCommentNotification/README.md)
   * [Add comment system](book/best-practices/AddComments/readme.md)
   * [Add notification system](book/best-practices/AddNotifications/readme.md)
   * [Add Namespaces](book/best-practices/AddNamespaces/readme.md)
