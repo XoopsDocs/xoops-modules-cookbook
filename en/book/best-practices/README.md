@@ -4,8 +4,9 @@ Here we'll be sharing our Best Practices in XOOPS Module Development, experience
 
 ### for XOOPS 2.5.10+
 
-### for PHP 7.0 +
+* [Ho to handle AND/OR in CriteriaCompo](HandleCriteriaCompo/README.md)
 
+### for PHP 7.0 +
 
 * [Conventions over Configuration](conventions.md)
 * [Add namespaces](AddNamespaces/README.md)
@@ -13,3 +14,4 @@ Here we'll be sharing our Best Practices in XOOPS Module Development, experience
 * [Add Notifications](AddNotifications/README.md)
 * [Add Comment Notification](AddCommentNotification/README.md)
 * [Add Comments](AddComments/README.md)
+

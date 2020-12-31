@@ -18,7 +18,13 @@
 ## Best Practices
 
 * [Best Practices](en/book/best-practices/README.md)
-
+  * [Read me](en/book/best-practices/README.md)
+  * [Conventions over Configuration](en/book/best-practices/conventions.md)
+  * [Add namespaces](en/book/best-practices/AddNamespaces/README.md)
+  * [Add Sample Buttons](en/book/best-practices/AddSampleButtons/README.md)
+  * [Add Comment Notification](en/book/best-practices/AddCommentNotification/README.md)
+  * [Add Comments](en/book/best-practices/AddComments/README.md)
+  * [Ho to handle AND/OR in CriteriaCompo](en/book/best-practices/HandleCriteriaCompo/README.md)
 
 ## Core Classes
 
