@@ -24,7 +24,7 @@
   * [Add Sample Buttons](en/book/best-practices/AddSampleButtons/README.md)
   * [Add Comment Notification](en/book/best-practices/AddCommentNotification/README.md)
   * [Add Comments](en/book/best-practices/AddComments/README.md)
-  * [Ho to handle AND/OR in CriteriaCompo](en/book/best-practices/HandleCriteriaCompo/README.md)
+  * [How to handle AND/OR in CriteriaCompo](en/book/best-practices/HandleCriteriaCompo/README.md)
 
 ## Core Classes
 
@@ -59,7 +59,7 @@
 
 * [Namespaces/Autoload](en/book/migration/namespaces-autoload.md)
 
-## Configaration
+## Configuration
 
 * [ModuleConfiguration](en/book/configuration/README.md)
 
