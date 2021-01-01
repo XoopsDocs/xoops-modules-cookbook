@@ -1,7 +1,7 @@
 ## Key Classes/Objects API
 
 #### Using Xoops API
-In addition to the Xoops API documentation http://api.xoops.org/ here we also need guidelines for module writers as to what classes to use when, why, and how, etc. For example:
+In addition to the Xoops API documentation http://api.xoops.org/ here we also need guidelines for module writers as to what classes to use when, why, and how, etc. For example:
    * XoopsObject Data Access classes
 
 If you create a module class (in the class folder of your module) called ```<Module>MyClass``` that extends ```XoopsObject```:

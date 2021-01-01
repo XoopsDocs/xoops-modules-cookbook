@@ -3,7 +3,7 @@
 The XOOPS API has a class called **Criteria** to aid in database searches. The class is defined as such:
 
 ```php
-Criteria Criteria (string $column, string $value = , string $operator = '=', mixed $prefix = , mixed $function = )
+Criteria Criteria (string $column, string $value = , string $operator = '=', mixed $prefix = , mixed $function = )
 ```
 
 ![](../../assets/uml/Criteria.png)

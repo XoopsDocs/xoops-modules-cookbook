@@ -9,3 +9,4 @@ Provides standard server stats, e.g.
 * Memory limit \(memory\_limit directive in php.ini\): **128M**
 * Server path to XOOPS root: **C:/wamp64/www/mymodule**
 
+![](../assets/serverstats.png)
