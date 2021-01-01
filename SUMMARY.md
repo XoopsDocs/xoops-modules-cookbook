@@ -49,7 +49,7 @@
   * [FilesManagement](en/book/common/traits/filesmanagement.md)
   * [ServerStats](en/book/common/traits/serverstats.md)
   * [VersionChecks](en/book/common/traits/versionchecks.md)
-
+  * [ModuleStats](en/book/common/traits/modulestats.md)
 
 
 ## Form Classes
@@ -59,6 +59,9 @@
 
 * [Namespaces/Autoload](en/book/migration/namespaces-autoload.md)
 
+## Configaration
+
+* [ModuleConfiguration](en/book/configuration/README.md)
 
 ## Testing
 * [Testing Checklist](en/book/testing/modulechecklist.md)
