@@ -1,4 +1,4 @@
-# Module Stats
+# ModuleStats
 
 This trait calls the Configurator class and if there is a ModuleStats array, then it gets it.
 
