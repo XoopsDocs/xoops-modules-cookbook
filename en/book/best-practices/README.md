@@ -4,7 +4,7 @@ Here we'll be sharing our Best Practices in XOOPS Module Development, experience
 
 ### for XOOPS 2.5.10+
 
-* [Ho to handle AND/OR in CriteriaCompo](HandleCriteriaCompo/README.md)
+* [How to handle AND/OR in CriteriaCompo](HandleCriteriaCompo/README.md)
 
 ### for PHP 7.0 +
 
