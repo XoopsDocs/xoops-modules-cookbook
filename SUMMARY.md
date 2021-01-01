@@ -2,19 +2,15 @@
 
 * [Read me](README.md)
 * [Introduction](en/book/introduction.md)
-* [Style Guides](en/book/standards/styleguide.md)
-* [Folder Structure](en/book/standards/modulestructure.md)
-* [Preferences](en/book/3preferences.md)
-* [Blocks](en/book/6blocks.md)
 * [Templates](en/book/7templates.md)
 * [Database](en/book/8database.md)
 
 ## Coding Standards
 
 * [Our Recommendations](en/book/standards/README.md)
-    * [PSR-12 Style Guide](styleguide.md)
-    * [Clean Code](cleancode.md)
-    * [Module Structure](modulestructure.md)
+    * [PSR-12 Style Guide](en/book/standards/styleguide.md)
+    * [Clean Code](en/book/standards/cleancode.md)
+    * [Module Structure](en/book/standards/modulestructure.md)
 
 ## Best Practices
 
