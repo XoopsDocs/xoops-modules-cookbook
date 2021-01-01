@@ -31,15 +31,20 @@ Changes will be [pushed to Gitbook.io automatically](https://xoops.gitbook.io/xo
 # Table of Content
 
 * [Introduction](en/book/introduction.md)
-* [Style Guides](en/book/standards/styleguide.md)
-* [Folder Structure](en/book/modulestructure.md)
-* [Preferences](en/book/3preferences.md)
-* [Blocks](en/book/6blocks.md)
-* [Templates](en/book/7templates.md)
-* [Miscellaneous](en/book/8other.md) 
+* [Our Standards](en/book/standards/README.md)  
+* [Best Practices](en/book/best-practices/README.md)
 * [Database](en/book/8database.md)
+* [Classes](en/book/core/README.md)  
+* [Common Classes](en/book/common/classes/README.md)  
+* [Traits](en/book/common/traits/README.md)  
+* [Form Classes](en/book/forms/README.md)
+* [Migration to Namespaces](en/book/migration/namespaces-autoload.md)  
+* [Module Configuration](en/book/configuration/README.md)
+* [Templates](en/book/7templates.md)  
 * [Credits](en/book/9credits.md)
 * [About XOOPS CMS](en/book/10aboutxoops.md)
+
+
 
 ## License:
 
