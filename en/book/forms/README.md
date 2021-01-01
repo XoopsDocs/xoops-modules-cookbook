@@ -1,6 +1,5 @@
 # Forms
 
-* [GroupPermForm](GroupPermForm.md)
 * [XoopsButtonTray](XoopsButtonTray.md)
 * [XoopsForm](XoopsForm.md)
 * [XoopsFormButton](XoopsFormButton.md)
@@ -36,3 +35,5 @@
 * [XoopsSimpleForm](XoopsSimpleForm.md)
 * [XoopsTableForm](XoopsTableForm.md)
 * [XoopsThemeForm](XoopsThemeForm.md)
+* [XoopsGroupPermForm](XoopsGroupPermForm.md)
+* [XoopsGroupFormCheckBox](XoopsGroupFormCheckBox.md)
