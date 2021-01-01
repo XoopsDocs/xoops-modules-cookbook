@@ -1,6 +1,6 @@
 # Install/Uninstall
 
-No special measures necessary, follow the standard installation process - extract the module folder into the
+To install a XOOPS module, there is no special measures necessary, just follow the standard installation process - extract the module folder into the
 
 ```text
 /modules
