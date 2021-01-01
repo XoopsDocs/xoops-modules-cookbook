@@ -1,5 +1,5 @@
 # Module Configuration files 
 
-[Configuration Files](configurationfiles.md)
+* [Configuration Files](configurationfiles.md)
 
 
