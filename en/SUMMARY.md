@@ -48,6 +48,7 @@
   * [FilesManagement](book/common/traits/filesmanagement.md)
   * [ServerStats](book/common/traits/serverstats.md)
   * [VersionChecks](book/common/traits/versionchecks.md)
+  * [ModuleStats](book/common/traits/modulestats.md)    
 
 
 
@@ -57,6 +58,10 @@
 ## Migration
 
 * [Namespaces/Autoload](book/migration/namespaces-autoload.md)
+
+## Configaration
+
+* [ModuleConfiguration](book/configuration/README.md)
 
 ## Testing
 * [Testing Checklist](book/testing/modulechecklist.md)
