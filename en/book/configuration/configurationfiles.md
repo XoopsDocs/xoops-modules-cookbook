@@ -4,7 +4,7 @@ The module configuration files are located in /config folder.
 
 Typical configuration files:
 
-1) config.php
+### 1) config.php
 
 
 ```php
@@ -80,7 +80,7 @@ return (object)[
 ```
 
 
-2) icons.php
+### 2) icons.php
 
 ```php
 <?php
@@ -106,7 +106,7 @@ return (object)[
 ];
 ```
 
-3) paths.php
+### 3) paths.php
 
 ```php
 <?php
