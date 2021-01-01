@@ -23,7 +23,7 @@
   * [Add comment system](book/best-practices/AddComments/README.md)
   * [Add notification system](book/best-practices/AddNotifications/README.md)
   * [Add Namespaces](book/best-practices/AddNamespaces/README.md)
-  * [Ho to handle AND/OR in CriteriaCompo](book/best-practices/HandleCriteriaCompo/README.md)
+  * [How to handle AND/OR in CriteriaCompo](book/best-practices/HandleCriteriaCompo/README.md)
 
 ## Core Classes
 
@@ -59,9 +59,9 @@
 
 * [Namespaces/Autoload](book/migration/namespaces-autoload.md)
 
-## Configaration
+## Configuration
 
 * [ModuleConfiguration](book/configuration/README.md)
 
 ## Testing
-* [Testing Checklist](book/testing/modulechecklist.md)
+* [TestingChecklist](book/testing/modulechecklist.md)
