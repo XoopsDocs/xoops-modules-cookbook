@@ -62,6 +62,7 @@
 ## Configuration
 
 * [ModuleConfiguration](en/book/configuration/README.md)
+    * [Configuration files](en/book/configuration/configurationfiles.md)
 
 ## Testing
 * [Testing Checklist](en/book/testing/modulechecklist.md)
