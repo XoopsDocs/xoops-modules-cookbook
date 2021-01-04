@@ -1,5 +1,5 @@
 ### _XOOPS Documentation Series_
-![](en/assets/logoXoops.jpg)
+![](https://xoops.org/images/logoXoops4GithubRepository.png)
 
 # XOOPS 2.5x Module Developer Cookbook
 #### for XOOPS 2.5.10+
