@@ -15,7 +15,7 @@ Create the following directory structure and files as a skeleton code that will 
 | /config | config.php | configuration files |
 | /language |  | local language files |
 | ------/english | admin.php  blocks.php main.php modinfo.php |  |
-| /public |  | web files  formerly /assets folder |
+| /assets |  | web files  formerly /assets folder |
 | ----/css |  | CSS files |
 | ----/img |  | images & icons |
 | ----/js |  | JavaScript files |
