@@ -108,14 +108,15 @@ All these parameters are required to use the Framework.
 To use this Framework in an adequate way, it is necessary to create a function that allows to verify if it is present on the website. 
 This precaution will avoid a white page to the user if the Framwork doesn’t exist. This function can also include the file "moduleadmin.php".
 ```php 
-function modulename_checkModuleAdmin() 
-{ 
-    if ( file_exists($GLOBALS['xoops']¬>path('/Frameworks/moduleclasses/moduleadmin/moduleadmin.php'))){ 
-        include_once $GLOBALS['xoops']¬>path('/Frameworks/moduleclasses/moduleadmin/moduleadmin.php'); 
-        return true; 
-    }else{ 
-        echo xoops_error("Error: You don't use the Frameworks \"adminmodule\". Please install this Frameworks"); return false; 
-    } 
+function modulename_checkModuleAdmin()
+{
+    if (file_exists($GLOBALS['xoops']->path('/Frameworks/moduleclasses/moduleadmin/moduleadmin.php'))) {
+        include_once $GLOBALS['xoops']->path('/Frameworks/moduleclasses/moduleadmin/moduleadmin.php');
+        return true;
+    } else {
+        echo xoops_error("Error: You don't use the Frameworks \"adminmodule\". Please install this Frameworks");
+        return false;
+    }
 }
 ```
 modulename must be replaced by the module title. This function is placed in functions.php:
@@ -153,15 +154,16 @@ The upper part is automatically generated and tabs are created by the menu.php f
 
 The menu.php file must have the following structure :
 ```php 
-$adminmenu[1]['title'] = _MI_MODULENAME_INDEX; 
-$adminmenu[1]['link'] = "admin/index.php"; 
-$adminmenu[1]['icon'] = "images/admin/home.png"; 
-$adminmenu[2]['title'] = _MI_MODULENAME_FIRSTMENU; 
-$adminmenu[2]['link'] = "admin/firstmenu.php"; 
-$adminmenu[2]['icon'] = "images/admin/firstmenu.png"; 
-$adminmenu[3]['title'] = _MI_MODULENAME_ABOUT; 
-$adminmenu[3]['link'] = "admin/about.php"; 
-$adminmenu[3]['icon'] = "images/admin/about.png";
+$adminmenu[1]['title'] = _MI_MODULENAME_INDEX;
+$adminmenu[1]['link']  = "admin/index.php";
+$adminmenu[1]['icon']  = "images/admin/home.png";
+$adminmenu[2]['title'] = _MI_MODULENAME_FIRSTMENU;
+$adminmenu[2]['link']  = "admin/firstmenu.php";
+$adminmenu[2]['icon']  = "images/admin/firstmenu.png";
+$adminmenu[3]['title'] = _MI_MODULENAME_ABOUT;
+$adminmenu[3]['link']  = "admin/about.php";
+$adminmenu[3]['icon']  = "images/admin/about.png";
+
 ```
 ```php 
 $adminmenu[id]['title']
