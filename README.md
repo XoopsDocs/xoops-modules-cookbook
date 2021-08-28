@@ -35,6 +35,7 @@ Changes will be [pushed to Gitbook.io automatically](https://xoops.gitbook.io/xo
 * [Best Practices](en/book/best-practices/README.md)
 * [Database](en/book/8database.md)
 * [Classes](en/book/core/README.md)  
+* [ModuleAdmin Framework](en/book/moduleadmin/moduleadmin.md)
 * [Common Classes](en/book/common/classes/README.md)  
 * [Traits](en/book/common/traits/README.md)  
 * [Form Classes](en/book/forms/README.md)

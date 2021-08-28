@@ -10,7 +10,7 @@ $form->addElement($checkbox1);
 
 // Display checkbox, initially unchecked.
 $checked_value = 1;
-$checkbox2 = new XoopsFormCheckBox(, 'box2', !$checked_value);
+$checkbox2 = new XoopsFormCheckBox(, 'box2', !$checked_value);
 $checkbox2->addOption($checked_value, _MD_MODNAME_CHECK_ME);
 $form->addElement($checkbox2);
 ```
