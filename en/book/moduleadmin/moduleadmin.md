@@ -48,8 +48,9 @@ The "ModuleAdmin" class completely manages the admin side of the module. It allo
 The framework is already part of XOOPS, so there is nothing that you need to do 
 
 
-##3 Usage
-###3.1 Configuration of xoops_version.php
+## 3 Usage
+
+### 3.1 Configuration of xoops_version.php
 
 In order to use the Framework, you have to add the lines below in your xoops_version.php : To list authors :
 ```php 
