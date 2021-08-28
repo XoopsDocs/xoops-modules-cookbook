@@ -198,7 +198,7 @@ The help template exists is in the language file so it can be translated for eac
   * language
     * english
       * help
-        * help.html
+        * help.tpl
       
 Please view the template help TDMDownloads module to see how it is constructed.
 
